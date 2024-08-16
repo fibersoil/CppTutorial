@@ -11,5 +11,6 @@ public class NewCppTutorialEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
 		ExtraModuleNames.Add("NewCppTutorial");
-	}
+		ExtraModuleNames.Add("NewCppTutorialEditor");
+    }
 }
